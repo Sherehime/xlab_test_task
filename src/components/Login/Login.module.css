@@ -1,0 +1,52 @@
+.Login {
+
+}
+
+.LoginForm {
+
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+.LoginHeading {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-align: center;
+    color: #f49d25;
+}
+
+.LoginInputWrapper {
+    margin: 0 0 10px;
+}
+
+.LoginSubmitButton {
+    width: 80%;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: 16px;
+    background: #f49d25;
+    color: white;
+    border: 0;
+    transition-duration: 200ms;
+}
+
+.LoginSubmitButtonDisabled{
+    width: 80%;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: 16px;
+    background: #f49d25;
+    color: white;
+    border: 0;
+    transition-duration: 200ms;
+    opacity: 20%;
+}
+
+
+.LoginSubmitButton:hover {
+    background: #f4791d;
+}

@@ -1,0 +1,25 @@
+.App {
+    width: 768px;
+    margin: 5vh auto;
+    background-color: #f4d16b;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+@media(max-width: 1082px) {
+    .App {
+        width: 768px
+    }
+}
+
+@media(max-width: 789px) {
+    .App {
+        width: 540px;
+    }
+}
+@media(max-width: 542px) {
+    .App {
+        width: 320px;
+    }
+}

@@ -1,0 +1,143 @@
+.Users {
+    margin-top: 2vh;
+}
+
+.Header {
+    margin-bottom: 10px;
+}
+
+.Header .User {
+    border: 0 !important;
+    font-size: 3vh;
+}
+
+.User {
+
+    margin-top: 3px;
+    border: 2px solid #f49d25;
+    border-radius: 30px;
+    font-size: 3vh;
+}
+
+.User a {
+    text-decoration: none;
+    color: navy;
+}
+
+
+.User > div {
+    padding-left: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+
+
+.User button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.UsersFilterInput {
+    border: 0;
+    height: 20px;
+    margin-right: 5px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.UsersHeader {
+    display: flex;
+}
+
+
+.SortById {
+
+    background: #f49d25;
+    color: white;
+    border: 0;
+    width: 7vh;
+    padding-left: 2vh;
+    padding-top: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 5px;
+
+
+}
+
+.SortById:hover:after {
+    content: "▲";
+}
+
+.SortById.ByDown:after,
+.SortById.ByUp:hover:after {
+    content: "▼";
+}
+
+.SortById.ByUp:after,
+.SortById.ByDown:hover:after {
+    content: "▲";
+}
+
+.CreateNewUserLink {
+    padding-top: 5px;
+    text-decoration: none;
+    color: darkgreen;
+    cursor: pointer;
+
+    border-bottom: 1px solid black;
+    transition-duration: 200ms;
+}
+
+.CreateNewUserLink:hover {
+    color: forestgreen;
+}
+
+
+@media (max-width: 1082px) {
+    .User {
+        grid-template-columns: 40px 100px 180px 275px 90px 60px;
+    }
+}
+
+@media (max-width: 789px) {
+    .Header .User {
+        font-size: 3vh;
+    }
+
+    .User {
+        font-size: 3vh;
+        grid-template-columns: 30px 100px 125px 130px 75px 45px;
+    }
+    .UsersFilterInput{
+        font-size: 3vh;
+        width: 170px;
+    }
+}
+
+@media (max-width: 542px) {
+    .Header .User {
+        font-size: 3vh;
+    }
+
+    .User {
+        font-size: 3vh;
+        grid-template-columns: 30px 50px 50px 55px 65px 40px;
+    }
+    .UsersHeader{
+        font-size: 3vh;
+    }
+    .UsersFilterInput{
+        width: 130px;
+    }
+    .SortById{
+        width: 10vh;
+        padding-left: 0vh;
+    }
+}

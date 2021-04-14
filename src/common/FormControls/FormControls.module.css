@@ -1,0 +1,59 @@
+.Error {
+    border: 1px solid red;
+    color:red;
+}
+.ErrorSpan {
+    color: red;
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.Input,
+.LoginInput{
+    width: 100%;
+}
+.Input input,
+.StyledPasswordInput input,
+.StyledInput input
+{
+    border: 0;
+    width: 80%;
+    outline:none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 40px;
+    font-size: 16px;
+    transition-duration: 200ms;
+
+}
+.Input input:focus {
+    box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.2)
+}
+
+.ShowLabel {
+    cursor: pointer;
+    color: #f49d25;
+}
+.StyledPasswordInput{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgb(232, 240, 254);
+}
+
+.StyledPasswordInput input{
+    width: 95%;
+}
+
+.StyledPasswordInput span{
+    line-height: 20px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+
+.StyledInput input,
+.StyledPasswordInput input{
+    background-color: rgb(232, 240, 254);
+}

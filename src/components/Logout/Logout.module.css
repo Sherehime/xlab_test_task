@@ -1,0 +1,17 @@
+.Logout {
+    margin-bottom: 20px;
+    text-align: right;
+}
+.LogoutButton {
+    width: 20%;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+    font-size: 14px;
+    background: #f49d25;
+    color: white;
+    border: 0;
+    transition-duration: 200ms;
+
+    margin-top: 5px;
+}
